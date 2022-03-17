@@ -37,7 +37,10 @@ RCT_EXPORT_METHOD(removeListeners : (NSInteger)count) {
 
 - (UIView *)view
 {
-  return [DatePicker new];
+  DatePicker *picker1 = [DatePicker new];
+  NSCalendar *calender = [[NSCalendar alloc]initWithCalendarIdentifier: NSBuddhistCalendar];
+  picker1.calendar = calender;
+  return picker1;
 }
 
 RCT_EXPORT_VIEW_PROPERTY(date, NSDate)
