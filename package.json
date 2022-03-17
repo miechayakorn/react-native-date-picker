@@ -1,32 +1,23 @@
 {
   "name": "react-native-date-picker",
-  "version": "4.2.0",
-  "description": "A datetime picker for React Native. In-modal or inlined. Supports Android and iOS.",
+  "version": "0.1.0",
+  "description": "Buddhist calendar",
   "main": "src/index.js",
   "scripts": {
-    "prepublishOnly": "mv README.md githubREADME.md && mv npmREADME.md README.md",
-    "postpublish": "mv README.md npmREADME.md && mv githubREADME.md README.md",
-    "test": "jest src"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:henninghall/react-native-date-picker.git"
+    "url": "git@github.com/miechayakorn/react-native-date-picker.git"
   },
-  "author": "henninghall",
-  "license": "MIT",
-  "homepage": "https://github.com/henninghall/react-native-date-picker",
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "github.com/miechayakorn/react-native-date-picker.git/issues"
+  },
+  "homepage": "https://github.com/miechayakorn/react-native-date-picker.git",
   "keywords": [
-    "datepicker",
-    "date-picker",
-    "date picker",
-    "datepicker",
-    "react native",
-    "react native date picker",
-    "react native datepicker",
-    "react native datetimepicker",
-    "react native date time picker",
-    "react-native",
-    "react-native-date-picker"
+    "datepicker"
   ],
   "dependencies": {},
   "devDependencies": {
