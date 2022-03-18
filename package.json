@@ -10,14 +10,15 @@
     "type": "git",
     "url": "git@github.com/miechayakorn/react-native-date-picker.git"
   },
-  "author": "",
+  "author": "Mie Chayakorn",
   "license": "",
   "bugs": {
     "url": "https://github.com/miechayakorn/react-native-date-picker.git/issues"
   },
   "homepage": "https://github.com/miechayakorn/react-native-date-picker.git",
   "keywords": [
-    "datepicker"
+    "datepicker",
+    "buddhist calendar"
   ],
   "dependencies": {},
   "devDependencies": {
