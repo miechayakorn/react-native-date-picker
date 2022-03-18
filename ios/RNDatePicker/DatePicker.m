@@ -59,8 +59,8 @@
         }
          _reactMinuteInterval = 1;
          
-        // only allow gregorian calendar
-        self.calendar = [NSCalendar calendarWithIdentifier:NSCalendarIdentifierGregorian];
+        // show only Buddhist calendar
+        self.calendar = [NSCalendar calendarWithIdentifier:NSCalendarIdentifierBuddhist];
     }
     return self;
 }
